@@ -17,6 +17,8 @@ npm init -y
 npm i -g nodemon
 # 运行node
 npm run serve
+# 安装常用模块
+npm i express@next mongoose cors
 
 ```
 
