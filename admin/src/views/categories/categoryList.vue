@@ -3,6 +3,7 @@
     <el-card>
       <el-table :data="tableData" stripe style="width: 100%">
         <el-table-column prop="_id" label="ID" width="250" />
+        <el-table-column prop="parent.name" label="上级分类" />
         <el-table-column prop="name" label="分类名称" />
         <el-table-column label="操作" width="200">
           <template #default="scope">
